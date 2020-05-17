@@ -1,10 +1,12 @@
 import React from 'react';
+import TodoApp from './Component/TodoApp/TodoApp';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      
+      <TodoApp />
     </div>
   );
 }
